@@ -1,0 +1,6 @@
+---
+profile_nginx::vhosts: {}
+profile_nginx::manage_firewall_entry: true
+profile_nginx::ports:
+  - 80
+profile_nginx::manage_prometheus_exporter: true
